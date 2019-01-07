@@ -16,6 +16,11 @@ header {
 	grid-area: header;
 }
 
+nav {
+	display: flex;	
+	justify-content: space-between;
+}
+
 #main-content {
 	height: 50vh;
 	width: 70vw;
