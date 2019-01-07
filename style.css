@@ -71,8 +71,12 @@ i {
 #main-content {
 	height: 50vh;
 	width: 70vw;
-	background-color: red;
 	grid-area: maincontent;
+}
+
+#video-section {
+	display: flex;
+	justify-content: center;
 }
 
 #video-feeds {
