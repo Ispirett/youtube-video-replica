@@ -24,6 +24,7 @@ header {
 	background-color: white;
 	grid-area: header;
 	position: fixed;
+	left: 0;
 }
 
 main {
@@ -77,6 +78,7 @@ i {
 #video-section {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 #video-feeds {
@@ -89,6 +91,6 @@ i {
 #comments {
 	height: 50vh;
 	width: 70vw;
-	background-color: gray;
+	/*background-color: gray;*/
 	grid-area: comments;
 }
