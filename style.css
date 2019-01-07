@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 main {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -12,13 +20,20 @@ main {
 header {
 	height: 70px;
 	width: 100vw;
-	/*background-color: blue;*/
+	top: 0;
+	background-color: white;
 	grid-area: header;
+	position: fixed;
+}
+
+main {
+	padding: 50px 0;
 }
 
 #navbar {
 	display: flex;	
 	justify-content: space-between;
+	margin-top: 1em;
 	margin-right: 2em;
 	margin-left: 2em;
 }
@@ -26,12 +41,18 @@ header {
 #brand-name {
 	font-size: 1.2em;
 }
+
 .fa-youtube {
 	color: red;
 	padding: 0.1em;
 }
+
 #icons-right i {
 	padding: 0 0.5em;
+}
+
+#avatar {
+	font-size: 2em;
 }
 
 .fa-bars {
