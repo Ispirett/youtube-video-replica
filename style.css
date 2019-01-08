@@ -115,12 +115,6 @@ iframe {
 	color: #606060;
 }
 
-#video-feeds {
-	height: 100vh;
-	width: 30vw;
-	background-color: green;
-	grid-area: videofeeds;
-}
 
 #channel-info {
 	display: flex;
@@ -192,6 +186,19 @@ iframe {
 .view-replies {
 	color: #0A0A0A;
 	
+}
+
+#video-feeds {
+	display: flex;
+	height: 100vh;
+	width: 30vw;
+	flex-direction: column;
+}
+
+#autoplay {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 
