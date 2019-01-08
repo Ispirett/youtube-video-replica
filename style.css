@@ -5,6 +5,9 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+/** {
+	border: 1px solid black;
+}*/
 
 main {
 	display: grid;
@@ -28,7 +31,9 @@ header {
 	position: fixed;
 	left: 0;
 }
-
+a {
+	text-decoration: none;
+}
 #navbar {
 	display: flex;	
 	justify-content: space-between;
@@ -63,6 +68,8 @@ i {
 	font-size: 1.2em;
 }
 
+
+
 #search {
 	width: 30rem;
 	/*height: ;*/
@@ -80,12 +87,17 @@ i {
 }
 
 #description {
-	width: 65%;
+	width: 60%;
 }
 
 #social-icons {
-	width: 35%;
-	background-color: gray;
+	align-self: flex-end;
+}
+
+#social-icons a {
+	color: #A0A0A0;
+	padding: 0 1em 0 0;
+
 }
 
 #video-section {
@@ -94,7 +106,9 @@ i {
 	/*align-items: center;*/
 	flex-direction: column;
 }
-
+#views {
+	color: #606060;
+}
 #video-feeds {
 	height: 100vh;
 	/*width: 30vw;*/
