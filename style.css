@@ -126,12 +126,32 @@ iframe {
 
 #channel-info {
 	display: flex;
+	margin-top: 1em;
+	
+}
+#left {
+	width: 10em;
+}
+#right {
+	display: flex;
 	flex-direction: column;
 }
 
-#top {
+#title-sub {
 	display: flex;
+	justify-content: space-between;
 }
+
+#channel-brand img {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+
+#subscription-box button{ 
+	background: #EEEEEE;
+	color: #696969;
+ }
 
 #comments {
 	height: 50vh;
