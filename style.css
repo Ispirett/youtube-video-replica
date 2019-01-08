@@ -190,15 +190,34 @@ iframe {
 
 #video-feeds {
 	display: flex;
+	flex-direction: column;
 	height: 100vh;
 	width: 30vw;
-	flex-direction: column;
+	margin-left: 1.5em;
 }
 
 #autoplay {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 
+#recommendations {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1em;
+}
+
+.thumbnail {
+	width: 168px;
+	height: 94px;
+	background-color: lightblue;
+}
+
+.thumbnail-info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1em;
+}
 
