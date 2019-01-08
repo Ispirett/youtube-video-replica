@@ -40,6 +40,10 @@ a {
 	padding: 0 0.5em;
 }
 
+.avatar {
+	font-size: 2em;
+}
+
 #avatar {
 	font-size: 2em;
 }
@@ -152,11 +156,32 @@ iframe {
  #comment-count-sort {
  	display: flex;
  }
+
  #comment-count {
  	margin-right: 3em;
  }
 
 .comment {
 	display: flex;
+}
+
+#comment-input {
+	margin: 1.2em 0;
+}
+
+#all-comments {
+	margin: 1.2em 0;
+}
+
+.comment-info {
+	margin-left: 1.2em;
+}
+
+.reaction a {
+	margin-right: 1em;
+}
+
+.reaction {
+	margin-bottom: 1em;
 }
 
