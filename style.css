@@ -216,7 +216,7 @@ iframe {
 
 #recommendations {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	margin-top: 1em;
 }
 
@@ -239,11 +239,10 @@ iframe {
 
 .thumb-title {
 	margin: 0 0 4px 0;
-    display: -webkit-box;
     font-size: 0.9rem;
     font-weight: 600;
-    line-height: 1.6rem;
-    text-overflow: ellipsis;
+    line-height: 1.1rem;
+    /*text-overflow: ellipsis;*/
 }
 
 .thumb-username ,.thumb-views{
@@ -257,7 +256,11 @@ iframe {
 }
 
 #thumbnail-link{
+}
 
+.thumb-box {
+	display: flex;
+	border: 1px solid black;
 }
 
 
