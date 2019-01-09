@@ -228,3 +228,23 @@ iframe {
 	margin-left: 1em;
 }
 
+.thumbnail-info span {
+	margin-bottom: 0.2em;
+}
+
+.thumb-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.thumb-username {
+	font-size: 14px;
+	color: #A0A0A0;
+}
+
+.thumb-views {
+	font-size: 14px;
+	color: #A0A0A0;
+	
+}
+
