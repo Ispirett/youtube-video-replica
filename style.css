@@ -100,7 +100,11 @@ iframe {
 }
 
 #description {
-	width: 60%;
+	width: 50%;
+}
+
+#video-title {
+	font-size: 1.2rem;
 }
 
 #social-icons {
@@ -120,6 +124,16 @@ iframe {
 #channel-info {
 	display: flex;
 	margin-top: 1em;
+}
+
+#channel-title {
+	font-size: 0.8rem;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+#published {
+	font-size: 0.8rem;
+	color: #606060;
 }
 
 #left {
@@ -157,13 +171,12 @@ iframe {
 
 .comment {
 	display: flex;
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 }
 
 #comment-input {
 	margin-top: 1.2em; 
 	align-items: center;
-	
 }
 
 #all-comments {
@@ -172,6 +185,15 @@ iframe {
 
 .comment-info {
 	margin-left: 1.2em;
+}
+
+#comment-box {
+	width: 100%;
+}
+
+.comment-info input {
+	height: 40px;
+	width: 100%;
 }
 
 .reaction a {
@@ -251,6 +273,7 @@ iframe {
 
 .thumb-box {
 	display: flex;
+	margin-bottom: 1em;
 }
 
 
