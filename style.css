@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: Roboto, Arial, sans-serif;
 }
 
 *, *:before, *:after {
@@ -84,7 +84,7 @@ i {
 
 #main-content {
 	height: 50vh;
-	width: 70vw;
+	width: 60vw;
   	/*border: 3px solid red;*/
 }
 
@@ -203,11 +203,15 @@ iframe {
 	margin-left: 1.5em;
 }
 
-#autoplay {
+#autoplay-section {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+}
+
+#autoplay {
+	color: #606060;
 }
 
 #recommendations {
@@ -220,6 +224,7 @@ iframe {
 	width: 168px;
 	height: 94px;
 	background-color: lightblue;
+
 }
 
 .thumbnail-info {
@@ -233,18 +238,27 @@ iframe {
 }
 
 .thumb-title {
-	font-size: 16px;
-	font-weight: bold;
+	margin: 0 0 4px 0;
+    display: -webkit-box;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    text-overflow: ellipsis;
 }
 
-.thumb-username {
-	font-size: 14px;
-	color: #A0A0A0;
+.thumb-username ,.thumb-views{
+	/*font-size: 12px;*/
+	color: #606060;
+	line-height: 1.2rem;
+    max-height: 3.6rem;
+    overflow: hidden;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: none;
 }
 
-.thumb-views {
-	font-size: 14px;
-	color: #A0A0A0;
-	
-}
+
+
+ 
+
 
