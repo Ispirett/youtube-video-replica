@@ -9,35 +9,143 @@
 </head>
 <body>
 	<header>
-		<nav>
-			<i class="fas fa-bars"></i>
-			<span><i class="fab fa-youtube-square"></i>YouTube</span>
-			<input type="search"><i class="fas fa-search"></i>
-
-			<span><i class="fas fa-video"><i class="fab fa-telegram"></i></i><i class="fas fa-bell"></i></span>
-			
+		<nav id="navbar">
+			<span id="icons-left">
+				<i class="fas fa-bars"></i>
+				<i class="fab fa-youtube"></i>
+				<span id="brand-name">YouTube</span>
+			</span>
+			<span id="icons-center">
+				<input id="search" type="search">
+				<button type="submit">
+					<i class="fas fa-search"></i>
+				</button>
+				
+			</span>
+			<span id="icons-right">
+				<i class="fas fa-video"></i>
+				<i class="fas fa-th"></i>
+				<i class="fab fa-telegram"></i>
+				<i class="fas fa-bell"></i>
+				<i class="fas fa-user-circle avatar" id="avatar"></i>
+			</span>
 			
 		</nav>
 	</header>
 	
-	<main>
-		<section id="main-content">
-			<div id="video-section">
-				<div id="video">
+	<main id="main">
+		<div id="main-left">
+			<section id="main-content">
+				<div id="video-section">
+					<div id="video">
+						<div id="iframe-wrapper">
+							<iframe width="" height="481" src="https://www.youtube.com/embed/0Gr1XSyxZy0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div id="video-info">
+						<div id="description">
+							<h1 id="video-title">
+								9 Biggest Mistakes with CSS Grid
+							</h1>
+							<p id="views">52,137 views</p>
+						</div>
+						<div id="social-icons">
+							<a href="#"><i class="fas fa-thumbs-up"> 1.9K </i></a>
+							<a href="#"><i class="far fa-thumbs-down"></i> 85</a>
+							<a href="#"><i class="fas fa-share"></i> SHARE</a>
+							<a href="#"><i class="far fa-plus-square"></i> SAVE</a>
+							<i class="fas fa-ellipsis-h"></i>
+						</div>
+					</div>
+					<div id="channel-info">
+						<div id="left">
+							<div id="channel-brand">
+								<img src="img/brand-logo.jpg" alt="Layout Land">
+							</div>
+							
+						</div>
+						<div id="right">
+							<div id="title-sub">
+								<div id="title-subtitle">
+									Title
+								</div>
+								<div id="subscription-box">
+									<button>SUBSCRIBE 36K</button>
+									<a href="#"><i class="fas fa-bell"></i></a>							
+								</div>
+							</div>
+							
+							<p id="channel-description">
+								It's easy to make lots of mistakes with a new technology, especially something that's as big of a change from the past as CSS Grid. Jen lists the 9 Biggest Mistakes she sees people making when using CSS Grid, with advice and tips for avoiding these pitfalls and old habits.
+							</p>
+							<a href="#">Show More</a>
+						</div>
+					</div>
 				</div>
-				<div id="description">
+				<hr>
+				<section id="comments">
+					<div id="comment-count-sort">
+						<div id="comment-count">
+							152 Comments
+						</div>
+						<div id="sort">
+							<i class="fas fa-sort"></i>
+							SORT BY
+						</div>
+					</div>
+					
+					<div id="all-comments">
+						<div id="comment-input" class="comment">
+							<div class="avatar">
+								<i class="fas fa-user-circle" id="avatar"></i>
+							</div>
+							<div class="comment-info">
+								<input type="text" placeholder="Add a public comment...">
+							</div>
+						</div>
+						<div class="comment">
+							<div class="avatar">
+								<i class="fas fa-user-circle" id="avatar"></i>
+							</div>
+							<div class="comment-info">
+								<div class="comment-header">
+									<span>Jean Deux</span> <span>5 months ago</span>
+								</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, odio.
+								</p>
+								<div class="reaction">
+									<a href="#"><i class="fas fa-thumbs-up"> 107</i></a>
+									<a href="#"><i class="fas fa-thumbs-down"></i></a>
+									<a href="#">REPLY</a>
+
+								</div>
+								<a href="#" class="view-replies">View replies <i class="fas fa-angle-down"></i></a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
+		<hr>
+		</div>
+		<section id="video-feeds">
+			<div id="autoplay-section">
+				<span>Up next</span>
+				<span id="autoplay">AUTOPLAY  <i class="fas fa-toggle-on"></i></span>
+			</div>
+			<div id="recommendations">
+				<div class="thumb-box">
+					<a id="thumbnail-link" href="#">
+							<img class="thumbnail" src="img/thumbnail.png" alt="Thumbnail">
+					</a>
+					<div class="thumbnail-info">
+						<span class="thumb-title">Complete User Registration system using PHP and MySQL database</span>
+						<span class="thumb-username">Awa Melvine <i class="fas fa-check-square"></i></span>
+						<span class="thumb-views">1.3M views</span>
+					</div>
 				</div>
 			</div>
-
-			
-		</section>
-		<section id="comments">
-	
-		</section>
-		<section id="video-feeds">
-			
 		</section>
 	</main>
-	
 </body>
 </html>
