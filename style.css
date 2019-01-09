@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html {
-    box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body * {
+	font-family: Roboto, Arial, sans-serif;
 }
 
 *, *:before, *:after {
@@ -11,10 +17,10 @@ header {
 	width: 100vw;
 	top: 0;
 	background-color: white;
-	/*grid-area: header;*/
 	position: fixed;
 	left: 0;
 }
+
 a {
 	text-decoration: none;
 }
@@ -60,31 +66,28 @@ i {
 
 #search {
 	width: 30rem;
-	/*height: ;*/
 }
 
 #main {
 	display: flex;
 	padding: 50px 0;
-	margin: 3em;
-	/*border: 1px solid black;*/
+	margin-top: 3em;
+	padding-left: 3em;
 }
 
 #main-left {
   display: flex;
   flex-direction: column;
+  width: 60%;
 }
 
 #main-content {
 	height: 50vh;
-	width: 70vw;
-  	/*border: 3px solid red;*/
 }
 
 #video-section {
 	display: flex;
 	justify-content: center;
-	/*align-items: center;*/
 	flex-direction: column;
 }
 
@@ -94,7 +97,6 @@ iframe {
 
 #video-info {
 	display: flex;
-	/*border: 1px solid black;*/
 }
 
 #description {
@@ -108,24 +110,16 @@ iframe {
 #social-icons a {
 	color: #A0A0A0;
 	padding: 0 1em 0 0;
-
 }
 
 #views {
 	color: #606060;
 }
 
-#video-feeds {
-	height: 100vh;
-	width: 30vw;
-	background-color: green;
-	grid-area: videofeeds;
-}
 
 #channel-info {
 	display: flex;
 	margin-top: 1em;
-	
 }
 
 #left {
@@ -193,5 +187,74 @@ iframe {
 	color: #0A0A0A;
 	
 }
+
+#video-feeds {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 30%;
+	margin-left: 1.5em;
+	/*border: 2px solid red;*/
+}
+
+#autoplay-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#autoplay {
+	color: #606060;
+}
+
+#recommendations {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1em;
+}
+
+.thumbnail {
+	width: 168px;
+	height: 94px;
+	background-color: lightblue;
+
+}
+
+.thumbnail-info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1em;
+}
+
+.thumbnail-info span {
+	margin-bottom: 0.2em;
+}
+
+.thumb-title {
+	margin: 0 0 4px 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.1rem;
+    /*text-overflow: ellipsis;*/
+}
+
+.thumb-username, .thumb-views{
+	color: #606060;
+	line-height: 1.2rem;
+    max-height: 3.6rem;
+    overflow: hidden;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.thumb-box {
+	display: flex;
+}
+
+
+
+ 
 
 
